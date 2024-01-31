@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /* this is how I allowed all users to have the correct font*/
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+html {
+    height: 100%;
+    background: #39007a;
+    box-shadow: black;
+    color: white;
+    text-align: center;
+}  
+body {
+    font-family: 'Montserrat', Calibri; /* this is how I ensured all font to be correct*/
+}
+   
+.navbar {
+    padding: 2vw;
+    background-color: #2c2f33; /* this class covers the navbar. It makes sure that all contents of the navbar are in the correct place and are spaced correctly*/
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+.navbar .instagram{
+    margin-left: auto;
+    text-align: right;
+    display: block;
+}
+.navbar .discord {
+    margin-left: 2%; /* this is how i move closer to contact class*/
+    text-align: right;
+    display: block;
+}
+.logo {
+    height: 40px;
+    margin-right: 10px; /* this is how i positioned the logo*/
+
+}
+.name1 {
+    color: #2c2f33;
+    background-color: white; /* name1 and name2 is how I edited the values of the name within the logo*/
+    padding: 0 5px;
+}
+.name2 {
+    color: white;
+    background-color: #39007a;
+    padding: 0 5px;
+    border-radius: 15px;
+    
+}
+.contact {
+    margin-left: 2%;
+    text-align: right;
+    display: block;
+}
+.column {
+    width: 40%;
+    box-sizing: border-box; /* this is how to comment with css (its different)*/
+    display: inline-block;
+}
+.container {
+    margin: 2%; /* this is how I spaced the 2 catergories on the website, putting a gap between "Download" and "Discord bots"*/
+}
+.button1 { 
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: black; /* this is how I changed the properties of button1, 2 and 3. This changes the colour, size and font size*/
+    font-size: 30px;
+}
+.button2 {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
+.button3 {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
+.glow {
+    font-size: 80px;
+  color: #ffcc00;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate; /* this is how I made the text glow on for the 2 subheadings on the page*/
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  
+.popup .popuptext {
+    visibility: hidden;
+    width: auto;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.popup:hover .popuptext {
+    visibility: visible;
+}
